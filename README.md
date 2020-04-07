@@ -1,6 +1,6 @@
 # ft_printf @42
 
-This project aims at coding a library providing the *ft_printf* function, that imitates printf's behavior.
+This project aims at coding a library providing the *ft_printf* function, that imitates printf's behavior. All the memory is called on the stack.
 
 ## Installation
 
