@@ -38,7 +38,7 @@ It supports the following type modifiers:
 ### Flags
 
 It supports the following flags:
-- `#`: for o conversions, the flag prepends the number by a `0`. For x and X conversions, a non-zero result has the string `0x' (or `0X' for X conversions) prepended to it.
+- `#`: for o conversions, the flag prepends the number by a `0`. For x and X conversions, a non-zero result has the string `0x` (or`0X` for X conversions) prepended to it.
 - `0`: The converted value is padded on the left with zeros rather than blanks. If a precision is given with a numeric conversion (d, i, o, u, i, x, and X), the 0 flag is ignored.
 - `-`: the converted value is padded on the right with blanks, rather than on the left with blanks or zeros.  A - overrides a 0 if both are given.
 - `space`: A blank should be left before a positive number produced by a signed conversion
@@ -48,6 +48,3 @@ It supports the following flags:
 
 It supports width and precision.
 It supports the escaper `%%`
-
-
-
